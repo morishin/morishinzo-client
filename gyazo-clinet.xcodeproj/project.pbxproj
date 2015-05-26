@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BBB734B1B14915B008E854C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB734A1B14915B008E854C /* AppDelegate.m */; };
+		5BBB734D1B14915B008E854C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB734C1B14915B008E854C /* main.m */; };
+		5BBB734F1B14915B008E854C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB734E1B14915B008E854C /* Images.xcassets */; };
+		5BBB73521B14915B008E854C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73501B14915B008E854C /* MainMenu.xib */; };
+		5BBB735E1B14915B008E854C /* gyazo_clinetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */; };
+		5BBB73691B14921A008E854C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73671B14921A008E854C /* InfoPlist.strings */; };
+		5BBB736B1B14922D008E854C /* script in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB736A1B14922D008E854C /* script */; };
+		5BBB736D1B149240008E854C /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB736C1B149240008E854C /* appIcon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BBB73581B14915B008E854C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BBB733C1B14915B008E854C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BBB73431B14915B008E854C;
+			remoteInfo = "gyazo-clinet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BBB73441B14915B008E854C /* gyazo-clinet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gyazo-clinet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB73481B14915B008E854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBB73491B14915B008E854C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BBB734A1B14915B008E854C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BBB734C1B14915B008E854C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BBB734E1B14915B008E854C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BBB73511B14915B008E854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gyazo-clinetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB735C1B14915B008E854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gyazo_clinetTests.m; sourceTree = "<group>"; };
+		5BBB73681B14921A008E854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BBB736A1B14922D008E854C /* script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = script; sourceTree = "<group>"; };
+		5BBB736C1B149240008E854C /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BBB73411B14915B008E854C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB73541B14915B008E854C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BBB733B1B14915B008E854C = {
+			isa = PBXGroup;
+			children = (
+				5BBB73461B14915B008E854C /* gyazo-clinet */,
+				5BBB735A1B14915B008E854C /* gyazo-clinetTests */,
+				5BBB73451B14915B008E854C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BBB73451B14915B008E854C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB73441B14915B008E854C /* gyazo-clinet.app */,
+				5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BBB73461B14915B008E854C /* gyazo-clinet */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB73491B14915B008E854C /* AppDelegate.h */,
+				5BBB734A1B14915B008E854C /* AppDelegate.m */,
+				5BBB734E1B14915B008E854C /* Images.xcassets */,
+				5BBB73501B14915B008E854C /* MainMenu.xib */,
+				5BBB73471B14915B008E854C /* Supporting Files */,
+			);
+			path = "gyazo-clinet";
+			sourceTree = "<group>";
+		};
+		5BBB73471B14915B008E854C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB736C1B149240008E854C /* appIcon.icns */,
+				5BBB736A1B14922D008E854C /* script */,
+				5BBB73671B14921A008E854C /* InfoPlist.strings */,
+				5BBB73481B14915B008E854C /* Info.plist */,
+				5BBB734C1B14915B008E854C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BBB735A1B14915B008E854C /* gyazo-clinetTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */,
+				5BBB735B1B14915B008E854C /* Supporting Files */,
+			);
+			path = "gyazo-clinetTests";
+			sourceTree = "<group>";
+		};
+		5BBB735B1B14915B008E854C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB735C1B14915B008E854C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BBB73431B14915B008E854C /* gyazo-clinet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinet" */;
+			buildPhases = (
+				5BBB73401B14915B008E854C /* Sources */,
+				5BBB73411B14915B008E854C /* Frameworks */,
+				5BBB73421B14915B008E854C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gyazo-clinet";
+			productName = "gyazo-clinet";
+			productReference = 5BBB73441B14915B008E854C /* gyazo-clinet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BBB73561B14915B008E854C /* gyazo-clinetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinetTests" */;
+			buildPhases = (
+				5BBB73531B14915B008E854C /* Sources */,
+				5BBB73541B14915B008E854C /* Frameworks */,
+				5BBB73551B14915B008E854C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBB73591B14915B008E854C /* PBXTargetDependency */,
+			);
+			name = "gyazo-clinetTests";
+			productName = "gyazo-clinetTests";
+			productReference = 5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BBB733C1B14915B008E854C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = morishin;
+				TargetAttributes = {
+					5BBB73431B14915B008E854C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5BBB73561B14915B008E854C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5BBB73431B14915B008E854C;
+					};
+				};
+			};
+			buildConfigurationList = 5BBB733F1B14915B008E854C /* Build configuration list for PBXProject "gyazo-clinet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BBB733B1B14915B008E854C;
+			productRefGroup = 5BBB73451B14915B008E854C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BBB73431B14915B008E854C /* gyazo-clinet */,
+				5BBB73561B14915B008E854C /* gyazo-clinetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BBB73421B14915B008E854C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB736D1B149240008E854C /* appIcon.icns in Resources */,
+				5BBB734F1B14915B008E854C /* Images.xcassets in Resources */,
+				5BBB73691B14921A008E854C /* InfoPlist.strings in Resources */,
+				5BBB73521B14915B008E854C /* MainMenu.xib in Resources */,
+				5BBB736B1B14922D008E854C /* script in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB73551B14915B008E854C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBB73401B14915B008E854C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB734D1B14915B008E854C /* main.m in Sources */,
+				5BBB734B1B14915B008E854C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBB73531B14915B008E854C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBB735E1B14915B008E854C /* gyazo_clinetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BBB73591B14915B008E854C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BBB73431B14915B008E854C /* gyazo-clinet */;
+			targetProxy = 5BBB73581B14915B008E854C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BBB73501B14915B008E854C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBB73511B14915B008E854C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5BBB73671B14921A008E854C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBB73681B14921A008E854C /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BBB735F1B14915B008E854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BBB73601B14915B008E854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BBB73621B14915B008E854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gyazo-clinet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BBB73631B14915B008E854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gyazo-clinet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BBB73651B14915B008E854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "gyazo-clinetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyazo-clinet.app/Contents/MacOS/gyazo-clinet";
+			};
+			name = Debug;
+		};
+		5BBB73661B14915B008E854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "gyazo-clinetTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyazo-clinet.app/Contents/MacOS/gyazo-clinet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BBB733F1B14915B008E854C /* Build configuration list for PBXProject "gyazo-clinet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB735F1B14915B008E854C /* Debug */,
+				5BBB73601B14915B008E854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB73621B14915B008E854C /* Debug */,
+				5BBB73631B14915B008E854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBB73651B14915B008E854C /* Debug */,
+				5BBB73661B14915B008E854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BBB733C1B14915B008E854C /* Project object */;
+}
