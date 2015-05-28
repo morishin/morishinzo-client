@@ -3,7 +3,7 @@
 require 'net/http'
 require 'uri'
 
-SERVER_URI = ""
+SERVER_URI = "http://g.morishin.me/"
 ACCESS_TOKEN = ""
 
 # capture png file
