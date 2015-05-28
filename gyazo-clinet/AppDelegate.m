@@ -44,7 +44,9 @@ int callRubyScript(NSString * filename) {
         
         NSData*   dataErr = [ [ pipeErr fileHandleForReading ] availableData ];
         NSString* strErr  = [ NSString stringWithFormat : @"%s", [ dataErr bytes ] ];
-        NSLog( @"%@",strErr );
+        if (![ strErr isEqualToString : @"(null)" ]) {
+            NSLog( @"%@",strErr );
+        }
         
     }
     return( [ task terminationStatus ] );    

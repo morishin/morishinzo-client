@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5BBB734B1B14915B008E854C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB734A1B14915B008E854C /* AppDelegate.m */; };
 		5BBB734D1B14915B008E854C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB734C1B14915B008E854C /* main.m */; };
-		5BBB734F1B14915B008E854C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB734E1B14915B008E854C /* Images.xcassets */; };
 		5BBB73521B14915B008E854C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73501B14915B008E854C /* MainMenu.xib */; };
 		5BBB735E1B14915B008E854C /* gyazo_clinetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */; };
 		5BBB73691B14921A008E854C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73671B14921A008E854C /* InfoPlist.strings */; };
@@ -33,7 +32,6 @@
 		5BBB73491B14915B008E854C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BBB734A1B14915B008E854C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BBB734C1B14915B008E854C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BBB734E1B14915B008E854C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BBB73511B14915B008E854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gyazo-clinetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB735C1B14915B008E854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			children = (
 				5BBB73491B14915B008E854C /* AppDelegate.h */,
 				5BBB734A1B14915B008E854C /* AppDelegate.m */,
-				5BBB734E1B14915B008E854C /* Images.xcassets */,
 				5BBB73501B14915B008E854C /* MainMenu.xib */,
 				5BBB73471B14915B008E854C /* Supporting Files */,
 			);
@@ -201,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BBB736D1B149240008E854C /* appIcon.icns in Resources */,
-				5BBB734F1B14915B008E854C /* Images.xcassets in Resources */,
 				5BBB73691B14921A008E854C /* InfoPlist.strings in Resources */,
 				5BBB73521B14915B008E854C /* MainMenu.xib in Resources */,
 				5BBB736B1B14922D008E854C /* script in Resources */,
