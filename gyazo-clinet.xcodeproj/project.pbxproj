@@ -14,6 +14,7 @@
 		5BBB73691B14921A008E854C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73671B14921A008E854C /* InfoPlist.strings */; };
 		5BBB736B1B14922D008E854C /* script in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB736A1B14922D008E854C /* script */; };
 		5BBB736D1B149240008E854C /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB736C1B149240008E854C /* appIcon.icns */; };
+		F5E1B78DABB2B172E68FBD90 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD47EF68F6EFB3CFA32B4814 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EE3951483C589012F273180 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5BBB73441B14915B008E854C /* gyazo-clinet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gyazo-clinet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB73481B14915B008E854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBB73491B14915B008E854C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +41,8 @@
 		5BBB73681B14921A008E854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BBB736A1B14922D008E854C /* script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = script; sourceTree = "<group>"; };
 		5BBB736C1B149240008E854C /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
+		BD47EF68F6EFB3CFA32B4814 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB236942B7AFE2D31BD17FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5E1B78DABB2B172E68FBD90 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,8 @@
 				5BBB73461B14915B008E854C /* gyazo-clinet */,
 				5BBB735A1B14915B008E854C /* gyazo-clinetTests */,
 				5BBB73451B14915B008E854C /* Products */,
+				7996D7FE2AF5D12E7F484FD9 /* Pods */,
+				E87FAD621D85B00BD042F2A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +124,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7996D7FE2AF5D12E7F484FD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE3951483C589012F273180 /* Pods.debug.xcconfig */,
+				CCB236942B7AFE2D31BD17FA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E87FAD621D85B00BD042F2A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD47EF68F6EFB3CFA32B4814 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinet" */;
 			buildPhases = (
+				77560617EA2DA684E75FE8E4 /* Check Pods Manifest.lock */,
 				5BBB73401B14915B008E854C /* Sources */,
 				5BBB73411B14915B008E854C /* Frameworks */,
 				5BBB73421B14915B008E854C /* Resources */,
+				65F9396B3FEA349655C0714A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +238,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65F9396B3FEA349655C0714A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77560617EA2DA684E75FE8E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BBB73401B14915B008E854C /* Sources */ = {
@@ -342,6 +401,7 @@
 		};
 		5BBB73621B14915B008E854C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE3951483C589012F273180 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -353,6 +413,7 @@
 		};
 		5BBB73631B14915B008E854C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB236942B7AFE2D31BD17FA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -417,6 +478,7 @@
 				5BBB73631B14915B008E854C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinetTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +487,7 @@
 				5BBB73661B14915B008E854C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

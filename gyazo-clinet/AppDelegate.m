@@ -7,10 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import <Keys/GyazoClinetKeys.h>
 
 @implementation AppDelegate
 
-int callRubyScript(NSString * filename) { 
+int callRubyScript(NSString * filename) {
+    // Access token
+    GyazoClinetKeys *keys = [[GyazoClinetKeys alloc] init];
     
     // Call Ruby script
     NSTask *             task = [ [ NSTask alloc ] init ]; 
@@ -33,9 +36,9 @@ int callRubyScript(NSString * filename) {
     [ task setLaunchPath           : @"/usr/bin/ruby" ];
     [ task setCurrentDirectoryPath : curPath ];
     if (filename == nil){
-        [ task setArguments:[NSArray arrayWithObjects:scrPath,scrPath,nil ] ];
+        [ task setArguments:[NSArray arrayWithObjects:scrPath, keys.accessToken, nil ] ];
     }else{
-        [ task setArguments:[NSArray arrayWithObjects:scrPath,scrPath,filename,nil ] ];
+        [ task setArguments:[NSArray arrayWithObjects:scrPath, keys.accessToken, filename, nil ] ];
     }
     [ task launch ];
     [ task waitUntilExit ];
