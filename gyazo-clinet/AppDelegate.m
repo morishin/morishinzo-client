@@ -7,13 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import <Keys/GyazoClinetKeys.h>
+#import <Keys/GyazoClientKeys.h>
 
 @implementation AppDelegate
 
 int callRubyScript(NSString * filename) {
     // Access token
-    GyazoClinetKeys *keys = [[GyazoClinetKeys alloc] init];
+    GyazoClientKeys *keys = [[GyazoClientKeys alloc] init];
     
     // Call Ruby script
     NSTask *             task = [ [ NSTask alloc ] init ]; 
