@@ -1,6 +1,6 @@
 //
-//  gyazo_clinetTests.m
-//  gyazo-clinetTests
+//  gyazo_clientTests.m
+//  gyazo-clientTests
 //
 //  Created by shintaro-morikawa on 2015/05/26.
 //  Copyright (c) 2015年 morishin. All rights reserved.
@@ -9,11 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
-@interface gyazo_clinetTests : XCTestCase
+@interface gyazo_clientTests : XCTestCase
 
 @end
 
-@implementation gyazo_clinetTests
+@implementation gyazo_clientTests
 
 - (void)setUp {
     [super setUp];

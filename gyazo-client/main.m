@@ -1,6 +1,6 @@
 //
 //  main.m
-//  gyazo-clinet
+//  gyazo-client
 //
 //  Created by shintaro-morikawa on 2015/05/26.
 //  Copyright (c) 2015年 morishin. All rights reserved.

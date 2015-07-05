@@ -10,7 +10,7 @@
 		5BBB734B1B14915B008E854C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB734A1B14915B008E854C /* AppDelegate.m */; };
 		5BBB734D1B14915B008E854C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB734C1B14915B008E854C /* main.m */; };
 		5BBB73521B14915B008E854C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73501B14915B008E854C /* MainMenu.xib */; };
-		5BBB735E1B14915B008E854C /* gyazo_clinetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */; };
+		5BBB735E1B14915B008E854C /* gyazo_clientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBB735D1B14915B008E854C /* gyazo_clientTests.m */; };
 		5BBB73691B14921A008E854C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB73671B14921A008E854C /* InfoPlist.strings */; };
 		5BBB736B1B14922D008E854C /* script in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB736A1B14922D008E854C /* script */; };
 		5BBB736D1B149240008E854C /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5BBB736C1B149240008E854C /* appIcon.icns */; };
@@ -23,21 +23,21 @@
 			containerPortal = 5BBB733C1B14915B008E854C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5BBB73431B14915B008E854C;
-			remoteInfo = "gyazo-clinet";
+			remoteInfo = "gyazo-client";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3EE3951483C589012F273180 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		5BBB73441B14915B008E854C /* gyazo-clinet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gyazo-clinet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB73441B14915B008E854C /* gyazo-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gyazo-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB73481B14915B008E854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBB73491B14915B008E854C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BBB734A1B14915B008E854C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BBB734C1B14915B008E854C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BBB73511B14915B008E854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gyazo-clinetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBB73571B14915B008E854C /* gyazo-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gyazo-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBB735C1B14915B008E854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gyazo_clinetTests.m; sourceTree = "<group>"; };
+		5BBB735D1B14915B008E854C /* gyazo_clientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gyazo_clientTests.m; sourceTree = "<group>"; };
 		5BBB73681B14921A008E854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BBB736A1B14922D008E854C /* script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = script; sourceTree = "<group>"; };
 		5BBB736C1B149240008E854C /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		5BBB733B1B14915B008E854C = {
 			isa = PBXGroup;
 			children = (
-				5BBB73461B14915B008E854C /* gyazo-clinet */,
-				5BBB735A1B14915B008E854C /* gyazo-clinetTests */,
+				5BBB73461B14915B008E854C /* gyazo-client */,
+				5BBB735A1B14915B008E854C /* gyazo-clientTests */,
 				5BBB73451B14915B008E854C /* Products */,
 				7996D7FE2AF5D12E7F484FD9 /* Pods */,
 				E87FAD621D85B00BD042F2A8 /* Frameworks */,
@@ -78,13 +78,13 @@
 		5BBB73451B14915B008E854C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5BBB73441B14915B008E854C /* gyazo-clinet.app */,
-				5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */,
+				5BBB73441B14915B008E854C /* gyazo-client.app */,
+				5BBB73571B14915B008E854C /* gyazo-clientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5BBB73461B14915B008E854C /* gyazo-clinet */ = {
+		5BBB73461B14915B008E854C /* gyazo-client */ = {
 			isa = PBXGroup;
 			children = (
 				5BBB73491B14915B008E854C /* AppDelegate.h */,
@@ -92,7 +92,8 @@
 				5BBB73501B14915B008E854C /* MainMenu.xib */,
 				5BBB73471B14915B008E854C /* Supporting Files */,
 			);
-			path = "gyazo-clinet";
+			name = "gyazo-client";
+			path = "gyazo-client";
 			sourceTree = "<group>";
 		};
 		5BBB73471B14915B008E854C /* Supporting Files */ = {
@@ -107,13 +108,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5BBB735A1B14915B008E854C /* gyazo-clinetTests */ = {
+		5BBB735A1B14915B008E854C /* gyazo-clientTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BBB735D1B14915B008E854C /* gyazo_clinetTests.m */,
+				5BBB735D1B14915B008E854C /* gyazo_clientTests.m */,
 				5BBB735B1B14915B008E854C /* Supporting Files */,
 			);
-			path = "gyazo-clinetTests";
+			name = "gyazo-clientTests";
+			path = "gyazo-clientTests";
 			sourceTree = "<group>";
 		};
 		5BBB735B1B14915B008E854C /* Supporting Files */ = {
@@ -144,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5BBB73431B14915B008E854C /* gyazo-clinet */ = {
+		5BBB73431B14915B008E854C /* gyazo-client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinet" */;
+			buildConfigurationList = 5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-client" */;
 			buildPhases = (
 				77560617EA2DA684E75FE8E4 /* Check Pods Manifest.lock */,
 				5BBB73401B14915B008E854C /* Sources */,
@@ -158,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "gyazo-clinet";
-			productName = "gyazo-clinet";
-			productReference = 5BBB73441B14915B008E854C /* gyazo-clinet.app */;
+			name = "gyazo-client";
+			productName = "gyazo-client";
+			productReference = 5BBB73441B14915B008E854C /* gyazo-client.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5BBB73561B14915B008E854C /* gyazo-clinetTests */ = {
+		5BBB73561B14915B008E854C /* gyazo-clientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinetTests" */;
+			buildConfigurationList = 5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clientTests" */;
 			buildPhases = (
 				5BBB73531B14915B008E854C /* Sources */,
 				5BBB73541B14915B008E854C /* Frameworks */,
@@ -176,9 +178,9 @@
 			dependencies = (
 				5BBB73591B14915B008E854C /* PBXTargetDependency */,
 			);
-			name = "gyazo-clinetTests";
-			productName = "gyazo-clinetTests";
-			productReference = 5BBB73571B14915B008E854C /* gyazo-clinetTests.xctest */;
+			name = "gyazo-clientTests";
+			productName = "gyazo-clientTests";
+			productReference = 5BBB73571B14915B008E854C /* gyazo-clientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5BBB733F1B14915B008E854C /* Build configuration list for PBXProject "gyazo-clinet" */;
+			buildConfigurationList = 5BBB733F1B14915B008E854C /* Build configuration list for PBXProject "gyazo-client" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BBB73431B14915B008E854C /* gyazo-clinet */,
-				5BBB73561B14915B008E854C /* gyazo-clinetTests */,
+				5BBB73431B14915B008E854C /* gyazo-client */,
+				5BBB73561B14915B008E854C /* gyazo-clientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BBB735E1B14915B008E854C /* gyazo_clinetTests.m in Sources */,
+				5BBB735E1B14915B008E854C /* gyazo_clientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +297,7 @@
 /* Begin PBXTargetDependency section */
 		5BBB73591B14915B008E854C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5BBB73431B14915B008E854C /* gyazo-clinet */;
+			target = 5BBB73431B14915B008E854C /* gyazo-client */;
 			targetProxy = 5BBB73581B14915B008E854C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,9 +407,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "gyazo-clinet/Info.plist";
+				INFOPLIST_FILE = "gyazo-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "gyazo-client";
 			};
 			name = Debug;
 		};
@@ -417,9 +419,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "gyazo-clinet/Info.plist";
+				INFOPLIST_FILE = "gyazo-client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "gyazo-client";
 			};
 			name = Release;
 		};
@@ -436,10 +438,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "gyazo-clinetTests/Info.plist";
+				INFOPLIST_FILE = "gyazo-clientTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyazo-clinet.app/Contents/MacOS/gyazo-clinet";
+				PRODUCT_NAME = "gyazo-clientTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyazo-client.app/Contents/MacOS/gyazo-client";
 			};
 			name = Debug;
 		};
@@ -452,17 +454,17 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "gyazo-clinetTests/Info.plist";
+				INFOPLIST_FILE = "gyazo-clientTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyazo-clinet.app/Contents/MacOS/gyazo-clinet";
+				PRODUCT_NAME = "gyazo-clientTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gyazo-client.app/Contents/MacOS/gyazo-client";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5BBB733F1B14915B008E854C /* Build configuration list for PBXProject "gyazo-clinet" */ = {
+		5BBB733F1B14915B008E854C /* Build configuration list for PBXProject "gyazo-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBB735F1B14915B008E854C /* Debug */,
@@ -471,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinet" */ = {
+		5BBB73611B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBB73621B14915B008E854C /* Debug */,
@@ -480,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clinetTests" */ = {
+		5BBB73641B14915B008E854C /* Build configuration list for PBXNativeTarget "gyazo-clientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5BBB73651B14915B008E854C /* Debug */,
