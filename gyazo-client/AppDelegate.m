@@ -13,7 +13,7 @@
 
 int callRubyScript(NSString * filename) {
     // Access token
-    GyazoClientKeys *keys = [[GyazoClientKeys alloc] init];
+    GyazoclientKeys *keys = [[GyazoclientKeys alloc] init];
     
     // Call Ruby script
     NSTask *             task = [ [ NSTask alloc ] init ]; 
