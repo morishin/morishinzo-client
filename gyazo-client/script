@@ -3,7 +3,7 @@
 require 'net/http'
 require 'uri'
 
-SERVER_URI = "http://g.morishin.me/upload"
+SERVER_URI = "http://morishinzo.morishin.me/upload"
 
 # capture png file
 tmpfile = "/tmp/image_upload#{$$}.png"
